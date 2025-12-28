@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <STYLE>
+            .container{
+                display: flex;
+                justify-content: flex-start;
+                align-items: flex-start;
+                gap:90px;
+            }
+            body{
+                background:linear-gradient(to left,pink,skyblue);
+
+            }
+            
+            P{
+                text-align:CENTER;
+                background-color: aqua;
+                padding:10px;
+            }
+            
+            .box {
+    width: 200px;
+    height:250px ;
+    padding: 25px;
+    margin: 10px 0;
+    background-color: white;
+   
+    border: 2px solid black;
+
+}
+.box2 {
+    width: 200px;
+    height:250px ;
+    padding: 25px;
+    margin: 10px 0;
+    background-color: white;
+   
+    border: 2px solid black;}
+  .box3 {
+    width: 200px;
+    height:250px ;
+    padding: 25px;
+    margin: 10px 0;
+    background-color: white;
+   
+    border: 2px solid black;
+text-transform:capitalize;
+font-weight:150px;}
+.box4{
+    width: 200px;
+    height:250px ;
+    padding: 25px;
+    margin: 10px 0;
+    background-color: white;
+   
+    border: 2px solid black;
+text-transform:capitalize;
+font-weight:150px;}
+h1{
+    color: blue;
+}
+
+
+button{
+    background-color: aqua;
+} 
+header{
+            background-color: cornflowerblue;
+            text-align: center;
+        }
+        .BOX {
+  width: 10x;
+  height: 100px;
+  background: red;
+
+  animation: bounce 1.5s infinite ease-in-out;
+  padding: 25px;
+  COLOR:white;
+  text-align: center;
+}
+@keyframes bounce {
+  0%   { transform: translateX(0); }
+  50%  { transform: translateX(100px); }
+  100% { transform: translateX(0); }
+}
+        </STYLE>
+
+    </head>
+</html>
+<body>
+     
+  <header> <P>WELCOME TO NGP HOME APPLIANCES ONLINE STORE</P><a href="file:///C:/Users/naray/OneDrive/Desktop/HTML/support1.html">HOME</a></header><div class="container">
+  <div class="box"><img src="C:\Users\naray\OneDrive\Pictures\Screenshots\Screenshot (16).png"height="110px"width="220px">$25000 LG SUPER WASHING MACHINE 22LITER CAPACITY
+    <button  onclick="addToCart('LG WASING MACHINE',25000)">ADD TO CART</button> </div>
+    <div class="box2"><img src="C:\Users\naray\OneDrive\Pictures\Screenshots\Screenshot (17).png"height="110px"width="220px"> $35000 LG FRIDGE TO STORE VEGIES IT STORES FRESHLY AND IT KEEPS COLD<BR>   <button  onclick="addToCart('LG fridge',35000)">ADD TO CART</button></div>
+        <div class="box3"><img src="C:\Users\naray\OneDrive\Pictures\Screenshots\Screenshot (18).png"height="110px"width="220px">$44400 samsung smart tv new launch xry model qled display<br><button  onclick="addToCart('samsung smart tv',25000)">ADD TO CART</button></div>
+        <div class="box4"><img src="C:\Users\naray\OneDrive\Pictures\Screenshots\Screenshot (19).png"height="110px"width="220px">$6000 croma microwave to bake cake and puffs <button  onclick="addToCart('croma microwave',6000)">ADD TO CART</button></div>
+      </div> <br><br><DIV CLASS="BOX"><h1>cart</h1><ul id="cart"></DIV></ul> <h2>Total:$<span id="total">0</span></h2>
+      <script src="script.js"></script></body></html>
